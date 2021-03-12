@@ -3,6 +3,8 @@ package View;
 import Controllers.Controller;
 
 import javax.swing.*;
+import javax.swing.event.ListSelectionEvent;
+import javax.swing.event.ListSelectionListener;
 
 public class MainFrame extends JFrame {
     private int width = 900;
@@ -14,7 +16,6 @@ public class MainFrame extends JFrame {
     public MainFrame(Controller controller) {
         this.controller = controller;
         SetupFrame();
-
     }
     //"Standard settings"
     public void SetupFrame() {
@@ -30,7 +31,7 @@ public class MainFrame extends JFrame {
 
         setVisible(true);
     }
-    public void updateAnimalList(String[] stringList){ panel.}
+    public void updateAnimalList(String[] stringList){ panel.s}
 }
 
 
